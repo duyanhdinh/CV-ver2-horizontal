@@ -3,7 +3,10 @@ import SideBarMenu from "~@/home/SideBarMenu";
 import Slider from "~@/home/Slider";
 import AboutMe from "~@/home/AboutMe";
 import Skills from "~@/home/Skills";
+import Activity from "~@/home/Activity";
+import TimeLine from "~@/home/TimeLine";
 import { TweenLite } from "gsap/TweenMax";
+import last_img from 'i@/last.png'
 
 export default {
   name: "home",
@@ -12,6 +15,8 @@ export default {
     Slider,
     AboutMe,
     Skills,
+    Activity,
+    TimeLine,
   },
   data() {
     return {
@@ -19,6 +24,9 @@ export default {
       pre: web.getters.getPre,
 
       left: 0,
+      backgroundImage:{
+        backgroundImage : "url(" + last_img + ")",
+      }
     };
   },
   computed: {
@@ -36,7 +44,7 @@ export default {
   },
   methods: {
     goStep(index, x) {
-      web.dispatch('setIndexMenu', index)
+      if (index) web.dispatch('setIndexMenu', index);
       this.moveX(x)
     },
     moveX(x) {

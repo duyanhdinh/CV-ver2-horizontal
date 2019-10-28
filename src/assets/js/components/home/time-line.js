@@ -1,10 +1,12 @@
 import web from "@/store";
 import StepCommon from "~@/common/StepCommon";
+import TimeLinePart from "~@/common/TimeLinePart";
 
 export default {
-    name: "about-me",
+    name: "time-line",
     components: {
-        StepCommon
+        StepCommon,
+        TimeLinePart
     },
     data() {
         return {
@@ -14,7 +16,7 @@ export default {
     },
     computed:{
         step(){
-            return web.getters.getAbout
+            return web.getters.getTimeLine
         }
     },
 };

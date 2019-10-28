@@ -13,13 +13,16 @@ export default {
             color: web.getters.getColor,
             pre: web.getters.getPre,
 
-            step: web.getters.getStep3,
-
             fan_style: {
                 '--fa-primary-color': web.getters.getColor.c1_code,
                 '--fa-secondary-color': web.getters.getColor.c1s_code,
                 '--fa-secondary-opacity': 0.8,
             }
         }
-    }
+    },
+    computed:{
+        step(){
+            return web.getters.getSkills
+        }
+    },
 };

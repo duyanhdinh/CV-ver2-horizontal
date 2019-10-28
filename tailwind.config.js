@@ -166,7 +166,8 @@ module.exports = {
       "120": "30rem",
       "140": "35rem",
       "200": "50rem",
-      "450p": "450px"
+      "450p": "450px",
+      "50r": "50%"
     },
     backgroundColor: theme => theme("colors"),
     backgroundPosition: {

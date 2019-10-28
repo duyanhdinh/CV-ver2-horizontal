@@ -11,6 +11,9 @@ export default {
   name: "app",
   components: {
     Home
+  },
+  metaInfo: {
+    title: "Duy Anh Dinh"
   }
 };
 </script>

@@ -23,8 +23,11 @@ export default {
                 autoPlay: true,
                 pauseAutoPlayOnHover: false,
             },
-
-            step: web.getters.getStep1,
         };
-    }
+    },
+    computed:{
+        step(){
+            return web.getters.getHi
+        }
+    },
 };
