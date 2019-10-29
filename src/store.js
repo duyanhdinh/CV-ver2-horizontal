@@ -28,26 +28,31 @@ export default new Vuex.Store({
               index: 0,
               left: 0,
               name: 'Hi',
+              id: 'slider',
           },
           {
               index: 1,
               left: 50,
               name: 'about me',
+              id: 'about-me',
           },
           {
               index: 2,
               left: 100,
               name: 'skills',
+              id: 'skills',
           },
           {
               index: 3,
               left: 150,
               name: 'activity',
+              id: 'activity',
           },
           {
               index: 4,
               left: 200,
               name: 'time line',
+              id: 'time-line',
           },
       ],
         hi:{
@@ -273,26 +278,31 @@ export default new Vuex.Store({
               index: 0,
               left: 0,
               name: 'Hi',
+              id: 'slider',
           },
           {
               index: 1,
               left: 50,
               name: 'về tôi',
+              id: 'about-me',
           },
           {
               index: 2,
               left: 100,
               name: 'kỹ năng',
+              id: 'skills',
           },
           {
               index: 3,
               left: 150,
               name: 'hoạt động',
+              id: 'activity',
           },
           {
               index: 4,
               left: 200,
               name: 'dòng thời gian',
+              id: 'time-line',
           },
       ],
         hi:{

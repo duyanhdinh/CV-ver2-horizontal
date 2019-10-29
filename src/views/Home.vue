@@ -6,36 +6,39 @@
       @x:move="moveX($event)"
     ></side-bar-menu>
 
-    <div class="absolute inset-0 left-0 lg:left-25/2">
+    <side-bar-menu-small class="lg:hidden fixed z-50 top-0"></side-bar-menu-small>
+    <menu-modal @scrollY="scrollY($event)"></menu-modal>
+
+    <div class="relative lg:absolute inset-0 left-0 lg:left-25/2">
         <div :style="style" class="absolute inset-0">
-          <div
+          <div ref="slider"
             @click="goStep(0, 0)"
             class="relative lg:absolute inset-0 w-full lg:w-200 min-h-screen left-0"
           >
             <slider></slider>
           </div>
-          <div
+          <div ref="about-me"
             @click="goStep(1, 50)"
             class="relative lg:absolute lg:scroll-style lg:overflow-y-auto overflow-hidden inset-0 w-full lg:w-200 min-h-screen left-0 lg:left-50"
             :class="[pre.bg + color.bg1]"
           >
             <about-me></about-me>
           </div>
-          <div
+          <div ref="skills"
             @click="goStep(2, 100)"
             class="relative lg:absolute lg:scroll-style lg:overflow-y-auto overflow-hidden inset-0 w-full lg:w-200 min-h-screen left-0 lg:left-100"
             :class="[pre.bg + color.bg2]"
           >
             <skills></skills>
           </div>
-          <div
+          <div ref="activity"
             @click="goStep(3, 150)"
             class="relative lg:absolute lg:scroll-style lg:overflow-y-auto overflow-hidden inset-0 w-full lg:w-200 min-h-screen left-0 lg:left-150"
             :class="[pre.bg + color.bg1]"
           >
             <activity></activity>
           </div>
-          <div
+          <div ref="time-line"
             @click="goStep(4, 200)"
             class="relative lg:absolute lg:scroll-style lg:overflow-y-auto overflow-hidden inset-0 w-full lg:w-200 min-h-screen left-0 lg:left-200"
             :class="[pre.bg + color.bg2]"
