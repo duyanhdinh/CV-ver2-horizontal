@@ -20,7 +20,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    language: 'en',
+    language: 'vi',
     index_active: 0,
     en: {
       menu: [
@@ -76,7 +76,7 @@ export default new Vuex.Store({
               },
               {
                   name: 'Phone',
-                  value: '(+84) 965349223'
+                  value: '(+84) ---------'
               },
           ],
           me:{
@@ -245,10 +245,16 @@ export default new Vuex.Store({
                           description: 'Join and develop a sales website by laravel. Maintain a product code by cakephp & angular.'
                       },
                       {
-                          time: '06/2018 - 04/2019',
-                          type: 'C/C++ | WEB DEVELOPER',
-                          place: 'Some company',
-                          description: 'Get the experiences.'
+                          time: '12/2018 - 04/2019',
+                          type: 'WEB DEVELOPER',
+                          place: 'Appota Entertainment Ecosystem',
+                          description: 'update and maintain an analytic web written by Yii & Angular'
+                      },
+                      {
+                          time: '06/2018 - 08/2018',
+                          type: 'C/C++ DEVELOPER',
+                          place: 'FPT Software',
+                          description: 'OJT employer'
                       },
                   ]
               },
@@ -312,16 +318,16 @@ export default new Vuex.Store({
                   value: '04/11/1995'
               },
               {
-                  name: 'địa chỉ',
-                  value: 'Việt Nam'
-              },
-              {
                   name: 'Email',
                   value: 'duyanhscor@gmail.com'
               },
               {
-                  name: 'điện thoại',
-                  value: '0965349223'
+                  name: 'Linked-in',
+                  value: 'linkedin.com/in/duy-anh-đinh-611156154/'
+              },
+              {
+                  name: 'Điện thoại',
+                  value: '---------'
               },
           ],
           me:{
@@ -488,10 +494,16 @@ export default new Vuex.Store({
                           description: 'Tham gia một dự án trang web bán hàng bằng laravel, bảo trì và nâng cấp một dự án bằng cakephp và angular.'
                       },
                       {
-                          time: '06/2018 - 04/2019',
-                          type: 'lập trình C/C++ | WEB',
-                          place: 'một vài công ty',
-                          description: 'Học hỏi kinh nghiệm.'
+                          time: '12/2018 - 04/2019',
+                          type: 'lập trình WEB',
+                          place: 'Appota Entertainment Ecosystem',
+                          description: 'Phát triển và bảo trì trang analytic viết bằng Yii và Angular'
+                      },
+                      {
+                          time: '06/2018 - 08/2018',
+                          type: 'lập trình C/C++',
+                          place: 'FPT Software',
+                          description: 'Nhân viên OJT'
                       },
                   ]
               },

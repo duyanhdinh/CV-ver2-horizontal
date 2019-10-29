@@ -1,5 +1,5 @@
 <template>
-    <div class="pb-16 mb-10">
+    <div class="pb-8 mb-10">
         <div class="font-oswald text-2xl font-medium uppercase">
             {{title}}
         </div>

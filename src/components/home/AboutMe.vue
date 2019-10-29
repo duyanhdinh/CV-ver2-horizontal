@@ -14,7 +14,7 @@
                 <div class="capitalize font-bold text-lg font-oswald"
                 >{{step.me.title}}</div>
                 <div class="mt-4 font-medium text-sm sm:text-lg"
-                     :class="[pre.text + color.c2s]"
+                     :class="[pre.text + color.c2]"
                 >{{step.me.description}}</div>
             </div>
 <!--            <div class="uppercase py-2 border-2 w-full sm:w-1/2 md:w-1/3 mt-5 text-center cursor-pointer font-bold"-->

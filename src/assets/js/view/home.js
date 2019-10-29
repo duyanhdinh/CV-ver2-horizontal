@@ -7,6 +7,7 @@ import Activity from "~@/home/Activity";
 import TimeLine from "~@/home/TimeLine";
 import { TweenLite } from "gsap/TweenMax";
 import last_img from 'i@/last.png'
+import img1 from 'i@/1.png';
 
 export default {
   name: "home",
@@ -26,6 +27,9 @@ export default {
       left: 0,
       backgroundImage:{
         backgroundImage : "url(" + last_img + ")",
+      },
+      avatar:{
+        backgroundImage : "url(" + img1 + ")",
       }
     };
   },
