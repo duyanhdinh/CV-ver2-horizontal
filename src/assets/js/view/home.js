@@ -6,11 +6,11 @@ import AboutMe from "~@/home/AboutMe";
 import Skills from "~@/home/Skills";
 import Activity from "~@/home/Activity";
 import TimeLine from "~@/home/TimeLine";
-import MenuModal from '~@/common/modal/MenuModal'
+import MenuModal from "~@/common/modal/MenuModal";
 
 import { TweenLite } from "gsap/TweenMax";
 
-import last_img from 'i@/last.png'
+import last_img from "i@/last.png";
 
 export default {
   name: "home",
@@ -22,7 +22,7 @@ export default {
     Skills,
     Activity,
     TimeLine,
-    MenuModal,
+    MenuModal
   },
   data() {
     return {
@@ -31,8 +31,8 @@ export default {
 
       left: 0,
       top: 0,
-      backgroundImage:{
-        backgroundImage : "url(" + last_img + ")",
+      backgroundImage: {
+        backgroundImage: "url(" + last_img + ")"
       }
     };
   },
@@ -51,15 +51,15 @@ export default {
   },
   methods: {
     goStep(index, x) {
-      if (index) web.dispatch('setIndexMenu', index);
-      this.moveX(x)
+      if (index) web.dispatch("setIndexMenu", index);
+      this.moveX(x);
     },
     moveX(x) {
       let left = -x;
       TweenLite.to(this.$data, 0.25, { left: left });
     },
     scrollY(top) {
-      this.$modal.hide('menu')
+      this.$modal.hide("menu");
       this.top = window.scrollY;
       let to = this.$refs[top].offsetTop - 64;
       // console.log(to)
@@ -67,9 +67,9 @@ export default {
       TweenLite.to(this.$data, 0.5, { top: to });
     }
   },
-  watch:{
-    top(newValue){
-      this.$el.scrollTo(0, newValue)
+  watch: {
+    top(newValue) {
+      this.$el.scrollTo(0, newValue);
     }
   }
 };
