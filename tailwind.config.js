@@ -22,7 +22,7 @@ module.exports = {
         c3: "#FFF",
         c3s: "#718096",
         bg1: "#FFF",
-        bg2: "#edf2f7",
+        bg2: "#edf2f7"
       },
 
       gray: {
@@ -286,7 +286,7 @@ module.exports = {
       "5xl": "3rem",
       "6xl": "4rem",
       "9xl": "6rem",
-      "12xl": "8rem",
+      "12xl": "8rem"
     },
     fontWeight: {
       hairline: "100",

@@ -4,7 +4,7 @@ import router from "./router";
 import store from "./store";
 import VueMeta from "vue-meta";
 import axios from "axios";
-import VModal from 'vue-js-modal'
+import VModal from "vue-js-modal";
 
 import "./assets/css/main.css";
 import "./assets/css/fontawesome_5_10_2.css";
@@ -18,7 +18,7 @@ Vue.use(VueMeta, {
   // optional pluginOptions
   refreshOnceOnNavigation: true
 });
-Vue.use(VModal)
+Vue.use(VModal);
 
 new Vue({
   router,
