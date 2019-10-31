@@ -6,8 +6,54 @@
 <!--      @x:move="moveX($event)"-->
 <!--    ></side-bar-menu>-->
 
+
     <div class="absolute inset-0 left-0 lg:left-25/2">
         <div :style="style" class="absolute inset-0">
+            <div class="w-full h-16 flex px-4 justify-between items-center text-2xl"
+                 :class="[pre.bg + color.c2]"
+            >
+                <div class="w-1/3 text-xl font-bold font-oswald tracking-wide uppercase"
+                     :class="[pre.text + color.c1]"
+                >Click to go</div>
+                <div class="w-2/3 flex justify-around items-center h-full">
+                    <div class="flex justify-center">
+                        <a href="https://owner.dazzard.com"
+                           target="_blank"
+                           class="p-2 rounded-full text-base font-oswald font-bold"
+                           :class="[pre.bg + color.bg2, pre.text + color.c1]"
+                        >
+                            <div class="px-1">CV</div>
+                        </a>
+                    </div>
+                    <div class="flex justify-center">
+                        <a href="https://dazzard.com"
+                           target="_blank"
+                           class=" p-2 rounded-full"
+                           :class="[pre.bg + color.bg2]"
+                        >
+                            <img class="w-6 h-6" :src="icon" alt="">
+                        </a>
+                    </div>
+                    <div class="text-blue-500 flex justify-center">
+                        <a href="https://www.linkedin.com/in/duy-anh-%C4%91inh-611156154"
+                           target="_blank"
+                           class=" px-2 rounded-full"
+                           :class="[pre.bg + color.bg2]"
+                        >
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div class="text-purple-700 flex justify-center">
+                        <a href="https://github.com/duyanhdinh"
+                           target="_blank"
+                           class="px-2 rounded-full"
+                           :class="[pre.bg + color.bg2]"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
 <!--          <div-->
 <!--            @click="goStep(0, 0)"-->
 <!--            class="relative lg:absolute inset-0 w-full lg:w-200 min-h-screen left-0"-->

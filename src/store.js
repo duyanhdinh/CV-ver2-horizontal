@@ -20,7 +20,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    language: 'vi',
+    language: 'en',
     index_active: 0,
       en: {
           menu: [
@@ -68,15 +68,11 @@ export default new Vuex.Store({
                   },
                   {
                       name: 'Address',
-                      value: 'Vietnam'
+                      value: 'Hanoi - Vietnam'
                   },
                   {
                       name: 'Email',
                       value: 'duyanhscor@gmail.com'
-                  },
-                  {
-                      name: 'Phone',
-                      value: '(+84) ---------'
                   },
               ],
               me:{
@@ -347,12 +343,8 @@ export default new Vuex.Store({
                       value: 'duyanhscor@gmail.com'
                   },
                   {
-                      name: 'Linked-in',
-                      value: 'linkedin.com/in/duy-anh-đinh-611156154/'
-                  },
-                  {
-                      name: 'Điện thoại',
-                      value: '---------'
+                      name: 'Địa chỉ',
+                      value: 'Hà Nội'
                   },
               ],
               me:{

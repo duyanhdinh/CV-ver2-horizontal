@@ -12,6 +12,7 @@ import { TweenLite } from "gsap/TweenMax";
 
 import last_img from 'i@/last.png'
 import img1 from 'i@/1.png';
+import icon from 'i@/icon.png';
 
 export default {
   name: "home",
@@ -37,7 +38,11 @@ export default {
       },
       avatar:{
         backgroundImage : "url(" + img1 + ")",
-      }
+      },
+      style_web: {
+        backgroundImage: "url('" + icon + "')"
+      },
+      icon: icon,
     };
   },
   computed: {
