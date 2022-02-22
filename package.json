@@ -1,5 +1,6 @@
 {
   "name": "front-end",
+  "author": "Duy Anh Dinh (https://github.com/duyanhdinh)",
   "version": "0.1.0",
   "private": true,
   "scripts": {
