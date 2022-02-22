@@ -72,7 +72,7 @@ export default new Vuex.Store({
           },
           {
             name: "Email",
-            value: "duyanhscor@gmail.com",
+            value: "demo@demo.com",
           },
           {
             name: "Phone",
@@ -352,11 +352,11 @@ export default new Vuex.Store({
           },
           {
             name: "Email",
-            value: "duyanhscor@gmail.com",
+            value: "demo@demo.com",
           },
           {
             name: "Linked-in",
-            value: "linkedin.com/in/duy-anh-đinh-611156154/",
+            value: "linkedin.com/in/duyanhdinh/",
           },
           {
             name: "Điện thoại",
