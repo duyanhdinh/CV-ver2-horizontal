@@ -10,18 +10,18 @@ import "./assets/css/main.css";
 import "./assets/css/fontawesome_5_10_2.css";
 
 window.axios = axios.create({
-  baseURL: "http://localhost:8000/api"
+  baseURL: "http://localhost:8000/api",
 });
 
 Vue.config.productionTip = false;
 Vue.use(VueMeta, {
   // optional pluginOptions
-  refreshOnceOnNavigation: true
+  refreshOnceOnNavigation: true,
 });
 Vue.use(VModal);
 
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: (h) => h(App),
 }).$mount("#app");

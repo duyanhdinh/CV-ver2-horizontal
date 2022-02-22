@@ -4,7 +4,7 @@ import Flickity from "vue-flickity";
 export default {
   name: "activity-modal",
   components: {
-    Flickity
+    Flickity,
   },
   data() {
     return {
@@ -18,11 +18,11 @@ export default {
         prevNextButtons: false,
         pageDots: false,
         hash: true,
-        draggable: false
+        draggable: false,
         // autoPlay: 5000,
         // wrapAround: true,
         // pauseAutoPlayOnHover: false,
-      }
+      },
     };
   },
   computed: {
@@ -36,7 +36,7 @@ export default {
     },
     step() {
       return web.getters.getActivity;
-    }
+    },
   },
   methods: {
     getIndex(event) {
@@ -49,11 +49,11 @@ export default {
     },
     gotoLink() {
       document.getElementById("url_activity" + this.index).click();
-    }
+    },
   },
   watch: {
     index_active(newValue) {
       this.index = newValue;
-    }
-  }
+    },
+  },
 };

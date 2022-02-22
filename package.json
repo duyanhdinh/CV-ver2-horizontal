@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "serve-lint": "vue-cli-service serve --fix",
     "build": "vue-cli-service build",
+    "build-git": "vue-cli-service build --dest docs",
     "dev": "vue-cli-service build --mode dev",
     "lint": "vue-cli-service lint"
   },
@@ -26,17 +27,17 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-eslint": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
-    "@vue/eslint-config-prettier": "^5.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.12.0",
-    "prettier": "^1.18.2",
-    "sass-loader": "^7.3.1",
-    "vue-template-compiler": "^2.6.10"
+    "@vue/cli-plugin-babel": "^4.5.4",
+    "@vue/cli-plugin-eslint": "^4.5.4",
+    "@vue/cli-service": "^4.5.4",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^7.0.1",
+    "prettier": "^2.1.1",
+    "sass-loader": "^9.0.3",
+    "vue-template-compiler": "^2.6.12"
   }
 }

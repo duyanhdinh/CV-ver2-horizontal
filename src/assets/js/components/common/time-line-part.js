@@ -4,7 +4,7 @@ export default {
   name: "time-line-part",
   props: {
     title: String,
-    data: Array
+    data: Array,
   },
   components: {},
   data() {
@@ -15,8 +15,8 @@ export default {
       hourglass_style: {
         "--fa-primary-color": web.getters.getColor.c1s_code,
         "--fa-secondary-color": web.getters.getColor.c1_code,
-        "--fa-secondary-opacity": 0.8
-      }
+        "--fa-secondary-opacity": 0.8,
+      },
     };
-  }
+  },
 };

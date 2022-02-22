@@ -6,7 +6,7 @@ import img2 from "i@/2.png";
 export default {
   name: "slider",
   components: {
-    Flickity
+    Flickity,
   },
   data() {
     return {
@@ -21,13 +21,13 @@ export default {
         pageDots: false,
         wrapAround: true,
         autoPlay: true,
-        pauseAutoPlayOnHover: false
-      }
+        pauseAutoPlayOnHover: false,
+      },
     };
   },
   computed: {
     step() {
       return web.getters.getHi;
-    }
-  }
+    },
+  },
 };

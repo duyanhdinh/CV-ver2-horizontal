@@ -1,4 +1,9 @@
-# front-end
+# CV-ver2-horizontal
+
+## Note
+This is my cv since Oct 2019, the information in the cv has changed at present. 
+
+URL: [https://duyanhdinh.github.io/CV-ver2-horizontal/](https://duyanhdinh.github.io/CV-ver2-horizontal/)
 
 ## Project setup
 ```

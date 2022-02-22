@@ -22,7 +22,7 @@ export default {
     Skills,
     Activity,
     TimeLine,
-    MenuModal
+    MenuModal,
   },
   data() {
     return {
@@ -32,22 +32,22 @@ export default {
       left: 0,
       top: 0,
       backgroundImage: {
-        backgroundImage: "url(" + last_img + ")"
-      }
+        backgroundImage: "url(" + last_img + ")",
+      },
     };
   },
   computed: {
     style() {
       if (window.innerWidth > 1024) {
         return {
-          left: this.left + "rem"
+          left: this.left + "rem",
         };
       } else {
         return {
-          left: 0
+          left: 0,
         };
       }
-    }
+    },
   },
   methods: {
     goStep(index, x) {
@@ -65,11 +65,11 @@ export default {
       // console.log(to)
       // this.$el.scrollTo(0, 1000)
       TweenLite.to(this.$data, 0.5, { top: to });
-    }
+    },
   },
   watch: {
     top(newValue) {
       this.$el.scrollTo(0, newValue);
-    }
-  }
+    },
+  },
 };

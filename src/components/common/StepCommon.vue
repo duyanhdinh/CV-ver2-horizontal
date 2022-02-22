@@ -1,6 +1,6 @@
 <template>
   <div class="px-8 sm:px-16 py-6 sm:py-12">
-    <div class="font-oswald text-4xl sm:text-5xl  font-medium uppercase">
+    <div class="font-oswald text-4xl sm:text-5xl font-medium uppercase">
       <slot name="title">hi</slot>
     </div>
     <div

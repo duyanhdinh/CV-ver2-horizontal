@@ -6,7 +6,7 @@ export default {
   data() {
     return {
       color: web.getters.getColor,
-      pre: web.getters.getPre
+      pre: web.getters.getPre,
     };
-  }
+  },
 };

@@ -6,17 +6,17 @@ export default {
   name: "time-line",
   components: {
     StepCommon,
-    TimeLinePart
+    TimeLinePart,
   },
   data() {
     return {
       color: web.getters.getColor,
-      pre: web.getters.getPre
+      pre: web.getters.getPre,
     };
   },
   computed: {
     step() {
       return web.getters.getTimeLine;
-    }
-  }
+    },
+  },
 };

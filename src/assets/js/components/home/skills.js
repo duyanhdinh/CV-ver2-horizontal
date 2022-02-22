@@ -6,7 +6,7 @@ export default {
   name: "skills",
   components: {
     StepCommon,
-    SkillsPart
+    SkillsPart,
   },
   data() {
     return {
@@ -16,13 +16,13 @@ export default {
       fan_style: {
         "--fa-primary-color": web.getters.getColor.c1_code,
         "--fa-secondary-color": web.getters.getColor.c1s_code,
-        "--fa-secondary-opacity": 0.8
-      }
+        "--fa-secondary-opacity": 0.8,
+      },
     };
   },
   computed: {
     step() {
       return web.getters.getSkills;
-    }
-  }
+    },
+  },
 };

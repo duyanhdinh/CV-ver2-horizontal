@@ -10,10 +10,10 @@ import Home from "v@/Home";
 export default {
   name: "app",
   components: {
-    Home
+    Home,
   },
   metaInfo: {
-    title: "Duy Anh Dinh"
-  }
+    title: "Duy Anh Dinh",
+  },
 };
 </script>

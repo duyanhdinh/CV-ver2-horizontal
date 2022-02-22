@@ -6,17 +6,17 @@ export default {
   name: "activity",
   components: {
     StepCommon,
-    ActivityModal
+    ActivityModal,
   },
   data() {
     return {
       color: web.getters.getColor,
-      pre: web.getters.getPre
+      pre: web.getters.getPre,
     };
   },
   computed: {
     step() {
       return web.getters.getActivity;
-    }
-  }
+    },
+  },
 };

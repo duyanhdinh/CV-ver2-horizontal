@@ -4,17 +4,17 @@ import StepCommon from "~@/common/StepCommon";
 export default {
   name: "about-me",
   components: {
-    StepCommon
+    StepCommon,
   },
   data() {
     return {
       color: web.getters.getColor,
-      pre: web.getters.getPre
+      pre: web.getters.getPre,
     };
   },
   computed: {
     step() {
       return web.getters.getAbout;
-    }
-  }
+    },
+  },
 };

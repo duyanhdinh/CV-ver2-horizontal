@@ -18,20 +18,20 @@ export default {
       font_style: {
         "--fa-primary-color": web.getters.getColor.c1_code,
         "--fa-secondary-color": web.getters.getColor.c1s_code,
-        "--fa-secondary-opacity": 0.8
+        "--fa-secondary-opacity": 0.8,
       },
 
       style_vi: {
-        backgroundImage: "url('" + vn_flag + "')"
+        backgroundImage: "url('" + vn_flag + "')",
       },
       style_en: {
-        backgroundImage: "url('" + uk_flag + "')"
+        backgroundImage: "url('" + uk_flag + "')",
       },
       style_web: {
-        backgroundImage: "url('" + icon + "')"
+        backgroundImage: "url('" + icon + "')",
       },
       active: "",
-      not_active: "opacity-25"
+      not_active: "opacity-25",
     };
   },
   computed: {
@@ -40,12 +40,12 @@ export default {
     },
     language() {
       return web.getters.getLanguage;
-    }
+    },
   },
   methods: {
     setLanguage(lang) {
       web.dispatch("setLanguage", lang);
-    }
+    },
   },
-  watch: {}
+  watch: {},
 };

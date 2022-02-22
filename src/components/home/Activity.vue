@@ -13,7 +13,7 @@
       >
         <img class="absolute z-10 w-full h-full" :src="item.img" alt="" />
         <div
-          class="hidden group-hover:block absolute z-20 w-full h-full opacity-90 "
+          class="hidden group-hover:block absolute z-20 w-full h-full opacity-90"
           :class="[pre.bg + color.c1]"
         >
           <div

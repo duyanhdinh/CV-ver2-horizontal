@@ -12,19 +12,19 @@ export default {
       color: web.getters.getColor,
       pre: web.getters.getPre,
       style_avatar: {
-        backgroundImage: "url('" + avatar + "')"
+        backgroundImage: "url('" + avatar + "')",
       },
       style_vi: {
-        backgroundImage: "url('" + vn_flag + "')"
+        backgroundImage: "url('" + vn_flag + "')",
       },
       style_en: {
-        backgroundImage: "url('" + uk_flag + "')"
+        backgroundImage: "url('" + uk_flag + "')",
       },
       style_web: {
-        backgroundImage: "url('" + icon + "')"
+        backgroundImage: "url('" + icon + "')",
       },
       active: "",
-      not_active: "opacity-25"
+      not_active: "opacity-25",
     };
   },
   computed: {
@@ -36,7 +36,7 @@ export default {
     },
     language() {
       return web.getters.getLanguage;
-    }
+    },
   },
   methods: {
     clickMenu(item) {
@@ -45,6 +45,6 @@ export default {
     },
     setLanguage(lang) {
       web.dispatch("setLanguage", lang);
-    }
-  }
+    },
+  },
 };

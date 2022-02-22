@@ -27,57 +27,57 @@ export default new Vuex.Store({
         {
           index: 0,
           left: 0,
-          name: "Hi"
+          name: "Hi",
         },
         {
           index: 1,
           left: 50,
-          name: "about me"
+          name: "about me",
         },
         {
           index: 2,
           left: 100,
-          name: "skills"
+          name: "skills",
         },
         {
           index: 3,
           left: 150,
-          name: "activity"
+          name: "activity",
         },
         {
           index: 4,
           left: 200,
-          name: "time line"
-        }
+          name: "time line",
+        },
       ],
       hi: {
         hi: "Hello, I'm",
         name: "Duy Anh Dinh",
-        career: "web developer"
+        career: "web developer",
       },
       about_me: {
         title: "About me",
         info: [
           {
             name: "Full name",
-            value: "Dinh Duy Anh"
+            value: "Dinh Duy Anh",
           },
           {
             name: "D.O.B",
-            value: "04 Nov 1995"
+            value: "04 Nov 1995",
           },
           {
             name: "Address",
-            value: "Vietnam"
+            value: "Vietnam",
           },
           {
             name: "Email",
-            value: "duyanhscor@gmail.com"
+            value: "duyanhscor@gmail.com",
           },
           {
             name: "Phone",
-            value: "(+84) ---------"
-          }
+            value: "(+84) ---------",
+          },
         ],
         me: {
           title: "Hi, i'm Duy Anh",
@@ -85,9 +85,9 @@ export default new Vuex.Store({
             "Hi, i'm Duy Anh. " +
             "I graduated at Posts and Telecommunications Institute of Technology Hanoi. " +
             "I have conferred the Degree of Engineer: Electronics and Communication Engineering (with GPA: 3.11/4). " +
-            "Now, i'm a web developer, with web programing main skills including: Laravel, Vue, Php, Sql, Css, .."
+            "Now, i'm a web developer, with web programing main skills including: Laravel, Vue, Php, Sql, Css, ..",
         },
-        download: "Download my cv"
+        download: "Download my cv",
       },
       skills: {
         title: "Skills",
@@ -98,27 +98,27 @@ export default new Vuex.Store({
               type: "back end",
               name: "Laravel",
               img: laravel_img,
-              class: "border-t-3 border-r-3 justify-center items-start"
+              class: "border-t-3 border-r-3 justify-center items-start",
             },
             {
               type: "front end",
               name: "Vue",
               img: vue_img,
-              class: "border-r-3 border-b-3 justify-end items-center"
+              class: "border-r-3 border-b-3 justify-end items-center",
             },
             {
               type: "sql",
               name: "MySql",
               img: mysql_img,
-              class: "border-l-3 border-t-3 justify-start items-center"
+              class: "border-l-3 border-t-3 justify-start items-center",
             },
             {
               type: "css",
               name: "Tailwindcss",
               img: tailwindcss_img,
-              class: "border-b-3 border-l-3 justify-center items-end"
-            }
-          ]
+              class: "border-b-3 border-l-3 justify-center items-end",
+            },
+          ],
         },
         knowledge: {
           title: "knowledge",
@@ -127,21 +127,21 @@ export default new Vuex.Store({
               type: "back end",
               name: "php",
               img: php_img,
-              class: ""
+              class: "",
             },
             {
               type: "sql",
               name: "MongoDB",
               img: mongodb_img,
-              class: ""
+              class: "",
             },
             {
               type: "git",
               name: "Git",
               img: git_img,
-              class: ""
-            }
-          ]
+              class: "",
+            },
+          ],
         },
         others: {
           title: "also knowledgeable",
@@ -150,21 +150,21 @@ export default new Vuex.Store({
               type: "other",
               name: "C",
               img: c_img,
-              class: ""
+              class: "",
             },
             {
               type: "other",
               name: "C++",
               img: cpp_img,
-              class: ""
+              class: "",
             },
             {
               type: "other",
               name: "Matlab",
               img: matlab_img,
-              class: ""
-            }
-          ]
+              class: "",
+            },
+          ],
         },
         language: {
           title: "language",
@@ -173,16 +173,16 @@ export default new Vuex.Store({
               name: "Vietnamese",
               mean: "godfather",
               full: 8,
-              empty: 1
+              empty: 1,
             },
             {
               name: "English",
               mean: "child",
               full: 4,
-              empty: 5
-            }
-          ]
-        }
+              empty: 5,
+            },
+          ],
+        },
       },
       activity: {
         title: "Activity",
@@ -195,7 +195,7 @@ export default new Vuex.Store({
               "The website is written by Vue at the front-end and Laravel at the back-end api." +
               " This site provides a template to help your profile look good.",
             url: "https://dazzard.com",
-            img: at_1
+            img: at_1,
           },
           {
             type: "web",
@@ -203,7 +203,7 @@ export default new Vuex.Store({
             description:
               "The site written by Vue (and Css, Js, Html).... Look good???",
             url: "https://owner.dazzard.com",
-            img: at_2
+            img: at_2,
           },
           {
             type: "web",
@@ -211,7 +211,7 @@ export default new Vuex.Store({
             description:
               "The site written by Vue at front-end and Laravel at api back-end. Uhm... Look good, too???",
             url: "https://cv-1905.dazzard.com/",
-            img: at_3
+            img: at_3,
           },
           {
             type: "web",
@@ -223,7 +223,7 @@ export default new Vuex.Store({
               "It just written by php, html, css and a little js. " +
               "it still working now : )",
             url: "http://didad.000webhostapp.com",
-            img: at_4
+            img: at_4,
           },
           {
             type: "others",
@@ -234,9 +234,9 @@ export default new Vuex.Store({
               "After that, I participated in a number of laboratory studies at the university, " +
               "led by a PhD. Vu Thi Thuy Ha.",
             url: "https://codeforces.com/profile/DuyAnhDinh",
-            img: at_5
-          }
-        ]
+            img: at_5,
+          },
+        ],
       },
       time_line: {
         title: "Time Line",
@@ -260,8 +260,8 @@ export default new Vuex.Store({
                       "Created pages user information (view, edit, update, deleted) in client site",
                       "Store & update billing information of user (credit card) to GMO",
                       "Created pages revenue of user, view history in client site",
-                      "..."
-                    ]
+                      "...",
+                    ],
                   },
                   {
                     name: "Management web",
@@ -270,25 +270,25 @@ export default new Vuex.Store({
                     team_size: "2 peoples (now 1 - me)",
                     description: "Maintain & update website",
                     responsibility: [
-                      "Updated and developed according to customer requirements"
-                    ]
-                  }
-                ]
+                      "Updated and developed according to customer requirements",
+                    ],
+                  },
+                ],
               },
               {
                 time: "12/2018 - 04/2019",
                 type: "WEB DEVELOPER",
                 place: "Appota Entertainment Ecosystem",
                 description:
-                  "Update and maintain an analytic web of company written by Yii & Angular"
+                  "Update and maintain an analytic web of company written by Yii & Angular",
               },
               {
                 time: "06/2018 - 08/2018",
                 type: "C/C++ DEVELOPER",
                 place: "FPT Software",
-                description: "OJT employer"
-              }
-            ]
+                description: "OJT employer",
+              },
+            ],
           },
           {
             title: "EDUCATION",
@@ -299,69 +299,69 @@ export default new Vuex.Store({
                 place:
                   "Posts and Telecommunications Institute of Technology, Hanoi",
                 description:
-                  "Graduated the Degree of Engineer: Electronics anh Communication Engineering in Mar 2018, with GPA: 3.11/4"
-              }
-            ]
-          }
-        ]
-      }
+                  "Graduated the Degree of Engineer: Electronics anh Communication Engineering in Mar 2018, with GPA: 3.11/4",
+              },
+            ],
+          },
+        ],
+      },
     },
     vi: {
       menu: [
         {
           index: 0,
           left: 0,
-          name: "Hi"
+          name: "Hi",
         },
         {
           index: 1,
           left: 50,
-          name: "về tôi"
+          name: "về tôi",
         },
         {
           index: 2,
           left: 100,
-          name: "kỹ năng"
+          name: "kỹ năng",
         },
         {
           index: 3,
           left: 150,
-          name: "hoạt động"
+          name: "hoạt động",
         },
         {
           index: 4,
           left: 200,
-          name: "dòng thời gian"
-        }
+          name: "dòng thời gian",
+        },
       ],
       hi: {
         hi: "Xin chào, tôi là",
         name: "Đinh Duy Anh",
-        career: "Lập trình web"
+        career: "Lập trình web",
       },
       about_me: {
         title: "về tôi",
         info: [
           {
             name: "Họ tên",
-            value: "Đinh Duy Anh"
+            value: "Đinh Duy Anh",
           },
           {
             name: "Ngày sinh",
-            value: "04/11/1995"
+            value: "04/11/1995",
           },
           {
             name: "Email",
-            value: "duyanhscor@gmail.com"
+            value: "duyanhscor@gmail.com",
           },
           {
             name: "Linked-in",
-            value: "linkedin.com/in/duy-anh-đinh-611156154/"
+            value: "linkedin.com/in/duy-anh-đinh-611156154/",
           },
           {
             name: "Điện thoại",
-            value: "---------"
-          }
+            value: "---------",
+          },
         ],
         me: {
           title: "Hi, tôi là Duy Anh",
@@ -369,9 +369,9 @@ export default new Vuex.Store({
             "Hi, tôi là Duy Anh. " +
             "Tôi tốt nghiệp tại trường Học viên Công nghệ Bưu chính Viễn thông, " +
             "bằng Kỹ sư kỹ thuật điện tử, truyền thông (GPA: 3.11/4). " +
-            "Hiện tại tôi là một lập trình viên Web, sử dụng: Laravel, Vue, Php, Sql, Css, .. "
+            "Hiện tại tôi là một lập trình viên Web, sử dụng: Laravel, Vue, Php, Sql, Css, .. ",
         },
-        download: "Tải cv"
+        download: "Tải cv",
       },
       skills: {
         title: "Kỹ năng",
@@ -382,27 +382,27 @@ export default new Vuex.Store({
               type: "back end",
               name: "Laravel",
               img: laravel_img,
-              class: "border-t-3 border-r-3 justify-center items-start"
+              class: "border-t-3 border-r-3 justify-center items-start",
             },
             {
               type: "front end",
               name: "Vue",
               img: vue_img,
-              class: "border-r-3 border-b-3 justify-end items-center"
+              class: "border-r-3 border-b-3 justify-end items-center",
             },
             {
               type: "sql",
               name: "MySql",
               img: mysql_img,
-              class: "border-l-3 border-t-3 justify-start items-center"
+              class: "border-l-3 border-t-3 justify-start items-center",
             },
             {
               type: "css",
               name: "Tailwindcss",
               img: tailwindcss_img,
-              class: "border-b-3 border-l-3 justify-center items-end"
-            }
-          ]
+              class: "border-b-3 border-l-3 justify-center items-end",
+            },
+          ],
         },
         knowledge: {
           title: "Hiểu biết",
@@ -411,21 +411,21 @@ export default new Vuex.Store({
               type: "back end",
               name: "php",
               img: php_img,
-              class: ""
+              class: "",
             },
             {
               type: "sql",
               name: "MongoDB",
               img: mongodb_img,
-              class: ""
+              class: "",
             },
             {
               type: "git",
               name: "Git",
               img: git_img,
-              class: ""
-            }
-          ]
+              class: "",
+            },
+          ],
         },
         others: {
           title: "Cũng biết về",
@@ -434,21 +434,21 @@ export default new Vuex.Store({
               type: "other",
               name: "C",
               img: c_img,
-              class: ""
+              class: "",
             },
             {
               type: "other",
               name: "C++",
               img: cpp_img,
-              class: ""
+              class: "",
             },
             {
               type: "other",
               name: "Matlab",
               img: matlab_img,
-              class: ""
-            }
-          ]
+              class: "",
+            },
+          ],
         },
         language: {
           title: "ngôn ngữ",
@@ -457,16 +457,16 @@ export default new Vuex.Store({
               name: "Vietnamese",
               mean: "thành thục",
               full: 8,
-              empty: 1
+              empty: 1,
             },
             {
               name: "English",
               mean: "bắt đầu",
               full: 4,
-              empty: 5
-            }
-          ]
-        }
+              empty: 5,
+            },
+          ],
+        },
       },
       activity: {
         title: "Hoạt động",
@@ -479,7 +479,7 @@ export default new Vuex.Store({
               "Trang web dduwwocj viết bởi Vue phía frontend và Laravel để tạo api ở backend." +
               " Trang web này cung cấp cho bạn một mẫu cv đẹp.",
             url: "https://dazzard.com",
-            img: at_1
+            img: at_1,
           },
           {
             type: "web",
@@ -487,7 +487,7 @@ export default new Vuex.Store({
             description:
               "Trang này được viết bằng Vue (và Css, Html, Js).. Trông cũng ổn nhỉ :D",
             url: "https://owner.dazzard.com",
-            img: at_2
+            img: at_2,
           },
           {
             type: "web",
@@ -495,7 +495,7 @@ export default new Vuex.Store({
             description:
               "Trang web được viết bới Vue và laravel. Uhm... Cũng được đúng ko ^^!",
             url: "https://cv-1905.dazzard.com/",
-            img: at_3
+            img: at_3,
           },
           {
             type: "web",
@@ -507,7 +507,7 @@ export default new Vuex.Store({
               "Nó được viết bằng php thuần, css, html và một chút js." +
               "Nó hiễn vẫn còn hoạt động : )",
             url: "http://didad.000webhostapp.com",
-            img: at_4
+            img: at_4,
           },
           {
             type: "others",
@@ -516,9 +516,9 @@ export default new Vuex.Store({
               "Tôi từng học về thuật toán và C/C++ vào những năm đầu sinh viên." +
               "Sau đó, tôi từng tham gia nghiên cứu tại trường dưới sự hướng dẫn của tiến sĩ Vũ Thị Thúy Hà.",
             url: "https://codeforces.com/profile/DuyAnhDinh",
-            img: at_5
-          }
-        ]
+            img: at_5,
+          },
+        ],
       },
       time_line: {
         title: "Dòng thời gian",
@@ -541,8 +541,8 @@ export default new Vuex.Store({
                       "Tạo các trang quản lý order, revenue, item, review bên phía admin",
                       "Tạo các trang quản lý thông tin user (view, edit, update, deleted) bên phía khách hàng",
                       "Lưu trữ thông tin thanh toán của khách hàng (credit card) lên GMO",
-                      "..."
-                    ]
+                      "...",
+                    ],
                   },
                   {
                     name: "trang web quản lý",
@@ -551,25 +551,25 @@ export default new Vuex.Store({
                     team_size: "2 (hiện tại 1 - me)",
                     description: "maintain & update website",
                     responsibility: [
-                      "Cập nhật và phát triển theo yêu cầu của khách hàng"
-                    ]
-                  }
-                ]
+                      "Cập nhật và phát triển theo yêu cầu của khách hàng",
+                    ],
+                  },
+                ],
               },
               {
                 time: "12/2018 - 04/2019",
                 type: "lập trình WEB",
                 place: "Appota Entertainment Ecosystem",
                 description:
-                  "Phát triển và bảo trì trang analytic viết bằng Yii và Angular"
+                  "Phát triển và bảo trì trang analytic viết bằng Yii và Angular",
               },
               {
                 time: "06/2018 - 08/2018",
                 type: "lập trình C/C++",
                 place: "FPT Software",
-                description: "Nhân viên OJT"
-              }
-            ]
+                description: "Nhân viên OJT",
+              },
+            ],
           },
           {
             title: "HỌC VẤN",
@@ -578,12 +578,12 @@ export default new Vuex.Store({
                 time: "2013 - 2018",
                 type: "Sinh viên",
                 place: "Học viên Công nghệ Bưu chính Viễn thông Hà Nội",
-                description: "Tốt nghiệp bằng kỹ sư tháng 3/2018, GPA: 3.11/4"
-              }
-            ]
-          }
-        ]
-      }
+                description: "Tốt nghiệp bằng kỹ sư tháng 3/2018, GPA: 3.11/4",
+              },
+            ],
+          },
+        ],
+      },
     },
     color: {
       c1: "web-c1",
@@ -594,46 +594,46 @@ export default new Vuex.Store({
       bg1: "web-bg1",
       bg2: "web-bg2",
       c1_code: "#ffb400",
-      c1s_code: "#004bff"
+      c1s_code: "#004bff",
     },
     pre: {
       bg: "bg-",
       text: "text-",
       hover: "hover:",
-      border: "border-"
-    }
+      border: "border-",
+    },
   },
   getters: {
-    getColor: state => {
+    getColor: (state) => {
       return state.color;
     },
-    getPre: state => {
+    getPre: (state) => {
       return state.pre;
     },
-    getMenu: state => {
+    getMenu: (state) => {
       return state[state.language].menu;
     },
-    getLanguage: state => {
+    getLanguage: (state) => {
       return state.language;
     },
-    getIndexActive: state => {
+    getIndexActive: (state) => {
       return state.index_active;
     },
-    getHi: state => {
+    getHi: (state) => {
       return state[state.language].hi;
     },
-    getAbout: state => {
+    getAbout: (state) => {
       return state[state.language].about_me;
     },
-    getSkills: state => {
+    getSkills: (state) => {
       return state[state.language].skills;
     },
-    getActivity: state => {
+    getActivity: (state) => {
       return state[state.language].activity;
     },
-    getTimeLine: state => {
+    getTimeLine: (state) => {
       return state[state.language].time_line;
-    }
+    },
   },
   mutations: {
     setIndexMenu(state, n) {
@@ -641,7 +641,7 @@ export default new Vuex.Store({
     },
     setLanguage(state, n) {
       state.language = n;
-    }
+    },
   },
   actions: {
     setIndexMenu({ commit }, n) {
@@ -649,6 +649,6 @@ export default new Vuex.Store({
     },
     setLanguage({ commit }, n) {
       commit("setLanguage", n);
-    }
-  }
+    },
+  },
 });

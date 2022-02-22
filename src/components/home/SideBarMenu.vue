@@ -19,7 +19,7 @@
             pre.hover + pre.text + color.c1,
             index_active == item.index
               ? pre.text + color.c1
-              : pre.text + color.c3
+              : pre.text + color.c3,
           ]"
           @click="clickMenu(item)"
         >
